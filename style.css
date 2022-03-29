@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* header */
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  color: #32b9cd;
+  border-bottom: 3px solid #32b9cd;
+}
+
+.header .container {
+  justify-content: space-between;
+}
+
+.header a {
+  text-decoration: none;
+  color: #e3b062
+}
+
+.agora {
+  font-weight: 800;
+}
+
+.navbar {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  color: #e3b062;
+}
+
+/* banner */
+
+.banner {
+  height: 500px;
+  color: white;
+  background-image: url("bg-jelly-fish-para-home.png");
+  background-size: cover;
+}
+
+.banner .container {
+  /* border: 3px solid green; */
+  height: 500px;
+  align-items: center;
+}
+
+.banner p {
+  /* border: 3px solid cyan; */
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  width: 280px;
+  font-size: 36px;
+  margin-left: 350px;
+}
+
+.banner span {
+  font-weight: 800;
+}
+
+/* proposito */
+
+.proposito {
+  background-color: #e5e5e5;
+  padding: 50px 0;
+}
+
+.proposito .container {
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+/* usar este bloco para explicar margin e padding*/
+.proposito .titulo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.proposito h2 {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  color: #e6005a;
+  margin: 0;
+}
+
+.proposito .boxes {
+  display: flex;
+}
+
+.proposito .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 33%;
+}
+
+.proposito .box img {
+  width: 150px;
+  align-self: center;
+}
+
+.proposito .box h4 {
+  color: #e6005a;
+  margin-top: 30px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #32b9cd;
+  height: 150px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .container {
+  justify-content: center;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+/* login */
+
+.banner .card {
+  background-color: beige;
+  height: 450px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.btn {
+  font-family: monospace;
+  margin-top: 10px;
+  border: 0;
+  font-weight: 600;
+  background-color: #e75459;
+  color: white;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+
+input {
+  height: 30px;
+  border: 2px solid #e75459;
+  border-radius: 4px;
+}
+
+.banner .card {
+  color: #e75459;
+}
