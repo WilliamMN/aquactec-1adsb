@@ -1,33 +1,26 @@
 body {
   margin: 0;
-  background-color: black;
+  background-color: #000;
   font-family: 'Courier New', Courier, monospace;
 }
 
-/* header */
-
+/* HEADER */
 .header {
   color: #32b9cd;
   border-bottom: 3px solid #32b9cd;
-}
-
-.container {
-  display: flex;
-  width: 80%;
-  margin: auto;
 }
 
 .header .container {
   justify-content: space-between;
 }
 
-.header a {
-  text-decoration: none;
-  color: #e3b062
-}
-
 .agora {
   font-weight: 800;
+}
+
+.header a {
+  text-decoration: none;
+  color: #e3b062;
 }
 
 .navbar {
@@ -39,26 +32,31 @@ body {
   color: #e3b062;
 }
 
-/* banner */
+/* CONTAINER */
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
 
+/* BANNER */
 .banner {
   height: 500px;
-  color: white;
+  color: #fff;
   background-image: url("bg-jelly-fish-para-home.png");
   background-size: cover;
 }
 
 .banner .container {
-  height: 500px;
+  height: 500px; /*NÃO É REDUNDANTE COM HEIGHT DO BANNER, POIS O HEIGHT É DO CONTAINER DENTRO DO BANNER*/
   align-items: center;
 }
 
 .banner p {
-  width: 50%;
+  width: 250px;
   margin: 0;
-  padding: 0;
-  width: 280px;
-  font-size: 36px;
+  margin: 0;
+  font-size: 35px;
   margin-left: 350px;
 }
 
@@ -66,8 +64,7 @@ body {
   font-weight: 800;
 }
 
-/* proposito */
-
+/* PROPÓSITO */
 .proposito {
   background-color: #e5e5e5;
   padding: 50px 0;
@@ -87,7 +84,7 @@ body {
 .proposito h2 {
   display: flex;
   padding: 20px;
-  background-color: white;
+  background-color: #fff;
   border-radius: 20px;
   align-self: center;
   justify-self: center;
@@ -119,12 +116,11 @@ body {
   margin-top: 30px;
 }
 
-/* footer */
-
+/*FOOTER*/
 .footer {
   background-color: #32b9cd;
   height: 150px;
-  color: white;
+  color: #fff;
   margin: 0;
   padding: 0;
   display: flex;
@@ -140,10 +136,10 @@ h4 {
   padding: 0;
 }
 
-/* login */
-
+/*=================ARQUIVO LOGIN.HTML=================*/
+/*LOGIN*/
 .banner .card {
-  background-color: beige;
+  background-color: #f5f5dc;
   height: 450px;
   width: 400px;
   display: flex;
@@ -152,6 +148,7 @@ h4 {
   justify-content: center;
   margin: auto;
   margin-top: 20px;
+  color: #e75549;
 }
 
 .card {
@@ -163,21 +160,16 @@ h4 {
   margin-top: 10px;
   border: 0;
   font-weight: 600;
-  background-color: #e75459;
-  color: white;
+  background-color: #e75549;
+  color: #fff;
   font-size: 18px;
   border-radius: 4px;
   padding: 10px 15px;
   cursor: pointer;
 }
 
-
 input {
   height: 30px;
-  border: 2px solid #e75459;
+  border: 2px solid #e75549;
   border-radius: 4px;
-}
-
-.banner .card {
-  color: #e75459;
 }
