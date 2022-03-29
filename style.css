@@ -1,21 +1,20 @@
 body {
   margin: 0;
-  padding: 0;
   background-color: black;
   font-family: 'Courier New', Courier, monospace;
 }
 
 /* header */
 
+.header {
+  color: #32b9cd;
+  border-bottom: 3px solid #32b9cd;
+}
+
 .container {
   display: flex;
   width: 80%;
   margin: auto;
-}
-
-.header {
-  color: #32b9cd;
-  border-bottom: 3px solid #32b9cd;
 }
 
 .header .container {
@@ -50,13 +49,11 @@ body {
 }
 
 .banner .container {
-  /* border: 3px solid green; */
   height: 500px;
   align-items: center;
 }
 
 .banner p {
-  /* border: 3px solid cyan; */
   width: 50%;
   margin: 0;
   padding: 0;
@@ -81,7 +78,6 @@ body {
   flex-direction: column;
 }
 
-/* usar este bloco para explicar margin e padding*/
 .proposito .titulo {
   display: flex;
   justify-content: center;
