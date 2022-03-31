@@ -6,4 +6,4 @@
 - [Login](https://github.com/WilliamMN/aquactec-1adsb/blob/main/login.html)
 
 ## **CSS**
-- [Style](https://github.com/WilliamMN/aquactec-1adsb/blob/main/login.html)
+- [Style](https://github.com/WilliamMN/aquactec-1adsb/blob/main/style.css)
